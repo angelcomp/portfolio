@@ -1,0 +1,40 @@
+body {
+    background: url(https://previews.123rf.com/images/annaleni/annaleni1612/annaleni161200084/67657568-blue-coding-line-tile-pattern-illustration-of-outline-seamless-background-programming-skills-.jpg);
+    background-size: auto 70vh;
+    font-family: Verdana;
+    height: 100vh
+  }
+  
+  .menu {
+    /*background-image: url(https://sysdatatecnologia.com.br/wp-content/uploads/2019/11/Sysdata-Seguranca-cibernetica-depois-de-um-ataque.jpg);
+    height: 20vh*/
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li {
+    list-style: none;
+  }
+  
+  a{
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .site-title {
+    color: blue;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  
