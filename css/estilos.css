@@ -1,3 +1,10 @@
+/*reset do css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background: url(https://previews.123rf.com/images/annaleni/annaleni1612/annaleni161200084/67657568-blue-coding-line-tile-pattern-illustration-of-outline-seamless-background-programming-skills-.jpg);
     background-size: auto 70vh;
@@ -5,14 +12,25 @@ body {
     height: 100vh
   }
   
-  .menu {
+
+
+.foto-perfil {
+    width: 330px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+.menu {
     /*background-image: url(https://sysdatatecnologia.com.br/wp-content/uploads/2019/11/Sysdata-Seguranca-cibernetica-depois-de-um-ataque.jpg);
     height: 20vh*/
   }
   .menu ul {
+    background-color: maroon;
     display: flex;
     justify-content: space-around;
   }
+
   .menu li {
     list-style: none;
   }
